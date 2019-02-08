@@ -1,0 +1,21 @@
+{
+  "name": "test-components",
+  "version": "1.0.0",
+  "description": "По большей части тест завязан на дизайне, то есть если что то поменялось в компоненте, тест изменится так же\r поэтому необходимо реализовывать тесты уже после того как готов компонент готов\r Их или дописывать или переписывать",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^24.1.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
