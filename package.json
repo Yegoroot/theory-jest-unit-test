@@ -10,10 +10,12 @@
   },
   "devDependencies": {
     "babel-jest": "^24.1.0",
-    "jest-webpack": "^0.5.1"
+    "jest-webpack": "^0.5.1",
+    "webpack-dev-server": "^3.1.14"
   },
   "scripts": {
-    "test": "jest-webpack"
+    "test": "jest-webpack",
+    "start": "webpack-dev-server --open"
   },
   "author": "",
   "license": "ISC"
